@@ -1,0 +1,38 @@
+[
+    {
+        "Data": "Node1",
+        "Next": "Node2",
+        "Prev": null,
+        "Rand": "Node3"
+    },
+    {
+        "Data": "Node2",
+        "Next": "Node3",
+        "Prev": "Node1",
+        "Rand": "Node1"
+    },
+    {
+        "Data": "Node3",
+        "Next": "Node4",
+        "Prev": "Node2",
+        "Rand": "Node2"
+    },
+    {
+        "Data": "Node4",
+        "Next": "Node5",
+        "Prev": "Node3",
+        "Rand": "Node6"
+    },
+    {
+        "Data": "Node5",
+        "Next": "Node6",
+        "Prev": "Node4",
+        "Rand": "Node5"
+    },
+    {
+        "Data": "Node6",
+        "Next": null,
+        "Prev": "Node5",
+        "Rand": "Node4"
+    }
+]
