@@ -10,9 +10,8 @@ Only read/write functions from the library were used.
 
 Example of code usage:
 
-int main()
+	int main()
 {
-    // Пример использования
     ListRand list;
     ListNode* node1 = new ListNode();
     ListNode* node2 = new ListNode();
